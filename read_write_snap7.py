@@ -20,9 +20,9 @@ import struct
 plc = snap7.client.Client()
 plc.connect('192.168.0.2', 0, 1)  # IP address, rack, slot (from HW settings)
 
-db_number = 2
+db_number = 1
 start_offset = 0
-bit_offset = 0
+bit_offset = 2
 value = 1  # 1 = true | 0 = false
 
 start_address = 100  # starting address
